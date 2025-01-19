@@ -26,6 +26,7 @@ sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_genera
 # rm -rf package/luci-app-amlogic
 # git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+git clone https://github.com/goecho/aic8800_linux_drvier.git package/aic8800
 #
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
